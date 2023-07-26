@@ -3,9 +3,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Windows 上安装 Jekyll! | likes mature women 的博客</title>
+<title>Windows 上安装 Jekyll | likes mature women 的博客</title>
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="Windows 上安装 Jekyll!" />
+<meta property="og:title" content="Windows 上安装 Jekyll" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="虽然 Windows 不是官方支持平台，它可以在适当调整后运行 Jekyll。" />
 <meta property="og:description" content="虽然 Windows 不是官方支持平台，它可以在适当调整后运行 Jekyll。" />
@@ -15,9 +15,9 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2023-07-23T00:00:00+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Windows 上安装 Jekyll!" />
+<meta property="twitter:title" content="Windows 上安装 Jekyll" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-07-23T00:00:00+08:00","datePublished":"2023-07-23T00:00:00+08:00","description":"虽然 Windows 不是官方支持平台，它可以在适当调整后运行 Jekyll。","headline":"Windows 上安装 Jekyll!","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/update/2023/07/23/Jekyll-+-Github-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2.html"},"url":"http://localhost:4000/jekyll/update/2023/07/23/Jekyll-+-Github-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-07-23T00:00:00+08:00","datePublished":"2023-07-23T00:00:00+08:00","description":"虽然 Windows 不是官方支持平台，它可以在适当调整后运行 Jekyll。","headline":"Windows 上安装 Jekyll","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/update/2023/07/23/Jekyll-+-Github-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2.html"},"url":"http://localhost:4000/jekyll/update/2023/07/23/Jekyll-+-Github-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="likes mature women 的博客" /></head>
 <body><header class="site-header" role="banner">
@@ -40,7 +40,7 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Windows 上安装 Jekyll!</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Windows 上安装 Jekyll</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="2023-07-23T00:00:00+08:00" itemprop="datePublished">Jul 23, 2023
       </time></p>
@@ -53,11 +53,73 @@
 
 <h3 id="通过-rubyinstaller-安装">通过 RubyInstaller 安装</h3>
 
-<p>安装  <code class="language-plaintext highlighter-rouge">Ruby</code> 和 <code class="language-plaintext highlighter-rouge">Jekyll</code> 最简单的方式是用 <code class="language-plaintext highlighter-rouge">Windows</code> 版 <code class="language-plaintext highlighter-rouge">RubyInstaller</code>。</p>
+<p>安装  <code class="language-plaintext highlighter-rouge">Ruby</code> 和 <code class="language-plaintext highlighter-rouge">Jekyll</code> 最简单的方式是用 <code class="language-plaintext highlighter-rouge">Windows</code> 版 <a href="https://rubyinstaller.org/">RubyInstaller</a>。</p>
 
 <p><code class="language-plaintext highlighter-rouge">RubyInstaller</code> 是一个自包含的 <code class="language-plaintext highlighter-rouge">Windows</code> 安装程序，它包含 <code class="language-plaintext highlighter-rouge">Ruby</code> 语言、一个执行环境、重要文档、及其它。</p>
 
-<p>这里只讨论 <code class="language-plaintext highlighter-rouge">RubyInstaller-2.4</code> 及以后的版本。老的版本需要手动安装 <code class="language-plaintext highlighter-rouge">Devkit</code>。</p>
+<p>这里只讨论 <code class="language-plaintext highlighter-rouge">RubyInstaller-2.4</code> 及以后的版本。老的版本需要手动<a href="https://github.com/oneclick/rubyinstaller/wiki/Development-Kit">安装 Devkit</a>。</p>
+
+<ol>
+  <li>
+    <p>从 <a href="https://rubyinstaller.org/downloads/">RubyIntaller Downloads</a> 下载并安装一个 <code class="language-plaintext highlighter-rouge">Ruby+Devkit</code> 版。使用默认选项安装。</p>
+  </li>
+  <li>
+    <p>在安装向导的最后阶段运行 <code class="language-plaintext highlighter-rouge">ridk install</code> 步骤。这是安装带有 <code class="language-plaintext highlighter-rouge">native extensions</code> 的 <code class="language-plaintext highlighter-rouge">gems</code> 所必需的。你可以在 <a href="https://github.com/oneclick/rubyinstaller2#using-the-installer-on-a-target-system">RubyInstaller 文档</a>中找到更多有关的信息。从选项中选择</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>MSYS2 and MINGW development tool chain
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>从开始菜单打开一个新的 <code class="language-plaintext highlighter-rouge">cmd</code> 窗口，以便 <code class="language-plaintext highlighter-rouge">PATH</code> 环境变量的更改生效。使用</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem <span class="nb">install </span>jekyll bundler
+</code></pre></div>    </div>
+
+    <p>安装 <code class="language-plaintext highlighter-rouge">Jekyll</code> 和 <code class="language-plaintext highlighter-rouge">Bundler</code> 。</p>
+  </li>
+  <li>
+    <p>检查 <code class="language-plaintext highlighter-rouge">Jekyll</code> 是否安装成功</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll <span class="nt">-v</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<blockquote>
+  <p>在检查Jekyll 是否未正确安装时，您可能会收到错误。重新启动操作系统并再次运行 <code class="language-plaintext highlighter-rouge">jekyll -v</code> 。 如果错误仍然存在，请打开 <a href="https://github.com/oneclick/rubyinstaller2/issues/new">RubyInstaller 问题</a>.</p>
+</blockquote>
+
+<h2 id="快速开始">快速开始</h2>
+
+<ol>
+  <li>
+    <p>通过 <code class="language-plaintext highlighter-rouge">cmd</code> 进入想安装的位置，运行</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll new myblog
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>进入目录</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>myblog
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>运行服务</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle exec jekyll serve
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>浏览 <a href="http://localhost:4000/">http://localhost:4000</a></p>
+  </li>
+</ol>
+
+<blockquote>
+  <p>如果你使用 Ruby version 3.0.0 或更高, 第3步 <a href="https://github.com/github/pages-gem/issues/752">可能出错</a>。 你可能需要通过 <code class="language-plaintext highlighter-rouge">bundle add webrick</code> 在依赖中添加 <code class="language-plaintext highlighter-rouge">webrick</code> 来修复。</p>
+
+  <p>传 <code class="language-plaintext highlighter-rouge">--livereload</code> 选项给 <code class="language-plaintext highlighter-rouge">serve</code> 以便在修改源文件时自动刷新页面: <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve --livereload</code></p>
+</blockquote>
 
 
   </div><a class="u-url" href="/jekyll/update/2023/07/23/Jekyll-+-Github-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2.html" hidden></a>
